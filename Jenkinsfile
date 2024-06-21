@@ -7,7 +7,6 @@ Pipeline {
 }
 		stage('Build Dcoker image'){
 			steps{
-			script{
 				app = docker.build('Rahul70/nginx')
 }
 		}}}
